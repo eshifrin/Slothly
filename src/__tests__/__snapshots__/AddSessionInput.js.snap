@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddSessionInput renders 1`] = `
+<View>
+  <TextInput
+    allowFontScaling={true}
+    keyboardType="number-pad"
+    onChangeText={[Function]}
+    onSubmitEditing={[Function]}
+    placeholder="HOW MANY MINUTES DIDYA MEDITATE?"
+    returnKeyType="done"
+    style={
+      Object {
+        "flex": 1,
+        "fontFamily": "futura",
+        "fontSize": 16,
+        "height": 60,
+        "textAlign": "center",
+      }
+    }
+    value=""
+  />
+</View>
+`;

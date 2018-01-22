@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Editor renders 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+      "flexDirection": "column",
+      "paddingTop": 30,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 0,
+        "flexDirection": "row",
+        "height": 80,
+        "justifyContent": "space-around",
+      }
+    }
+  >
+    <TouchableHighlight
+      activeOpacity={0.85}
+      onPress={[MockFunction]}
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+      underlayColor="white"
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#efdbc2"
+        name="circle-with-cross"
+        size={75}
+      />
+    </TouchableHighlight>
+    <TouchableHighlight
+      activeOpacity={0.85}
+      onPress={[Function]}
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+      underlayColor="white"
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#032b82"
+        name="ios-checkmark-circle-outline"
+        size={75}
+      />
+    </TouchableHighlight>
+  </View>
+  <AnimatedComponent
+    style={
+      Array [
+        Object {
+          "maxHeight": 500,
+        },
+      ]
+    }
+  >
+    <Label
+      text="SESSION LENGTH"
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#032b82",
+          "flex": 0,
+          "flexDirection": "row",
+          "height": 75,
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        keyboardType="number-pad"
+        onChangeText={[Function]}
+        returnKeyType="done"
+        style={
+          Array [
+            Object {
+              "borderWidth": 0,
+              "color": "#efdbc2",
+              "flex": 0,
+              "flexBasis": "50%",
+              "fontFamily": "Futura",
+              "fontSize": 22,
+            },
+            Object {
+              "flexBasis": "35%",
+              "marginRight": 5,
+            },
+          ]
+        }
+        textAlign="right"
+        value="5"
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "borderWidth": 0,
+            "color": "#efdbc2",
+            "flex": 0,
+            "flexBasis": "50%",
+            "fontFamily": "Futura",
+            "fontSize": 22,
+          }
+        }
+      >
+        Minutes
+      </Text>
+    </View>
+    <Label
+      text="SESSION DATE"
+    />
+    <DatePicker
+      TouchableComponent={[Function]}
+      androidMode="default"
+      cancelBtnText="Cancel"
+      confirmBtnText="Confirm"
+      customStyles={
+        Object {
+          "dateInput": Object {
+            "borderWidth": 0,
+          },
+          "dateText": Object {
+            "borderWidth": 0,
+            "color": "#efdbc2",
+            "fontFamily": "Futura",
+            "fontSize": 22,
+          },
+          "dateTouchBody": Object {
+            "flexDirection": "row-reverse",
+            "width": "100%",
+          },
+        }
+      }
+      date="Mon 12:00AM | Jan 1st, 2018"
+      disabled={false}
+      duration={300}
+      format="ddd h:mma | MMM Do, YYYY"
+      height={259}
+      hideText={false}
+      iconSource={
+        Object {
+          "testUri": "../../react-native-datepicker/date_icon.png",
+        }
+      }
+      maxDate="Thu 12:00AM | Feb 1st, 2018"
+      modalOnResponderTerminationRequest={[Function]}
+      mode="datetime"
+      onDateChange={[Function]}
+      placeholder="select date"
+      showIcon={true}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#032b82",
+            "flex": 0,
+            "flexDirection": "row",
+            "height": 75,
+          },
+          Object {
+            "borderWidth": 0,
+            "justifyContent": "center",
+            "width": "100%",
+          },
+        ]
+      }
+    />
+  </AnimatedComponent>
+  <Label
+    text="SESSION NOTES"
+  />
+  <ScrollViewMock
+    keyboardDismissMode="interactive"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      multiline={true}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="  ... "
+      placeholderTextColor="#efdbc2"
+      returnKeyType="default"
+      style={
+        Object {
+          "backgroundColor": "#032b82",
+          "color": "#efdbc2",
+          "flex": 1,
+          "fontFamily": "futura",
+          "fontSize": 22,
+          "height": 300,
+          "maxHeight": 1000,
+        }
+      }
+      value="mock note"
+    />
+  </ScrollViewMock>
+</View>
+`;

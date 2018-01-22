@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SessionList renders 1`] = `
+<SwipeListView
+  ItemSeparatorComponent={[Function]}
+  closeOnRowBeginSwipe={false}
+  closeOnRowPress={true}
+  closeOnScroll={true}
+  data={
+    Array [
+      Object {
+        "note": "mock note",
+        "sessionLength": "5",
+        "when": 2018-01-01T08:00:00.000Z,
+      },
+    ]
+  }
+  directionalDistanceChangeThreshold={2}
+  disableLeftSwipe={false}
+  disableRightSwipe={true}
+  keyExtractor={[Function]}
+  leftOpenValue={0}
+  previewFirstRow={false}
+  recalculateHiddenLayout={false}
+  renderHiddenItem={[Function]}
+  renderItem={[Function]}
+  rightOpenValue={-140}
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+  swipeToClosePercent={50}
+  swipeToOpenPercent={50}
+  swipeToOpenVelocityContribution={0}
+  useFlatList={true}
+/>
+`;

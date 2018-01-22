@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Session renders 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#032b82",
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 75,
+        "justifyContent": "space-around",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "white",
+          "fontFamily": "Futura",
+          "fontSize": 18,
+        }
+      }
+    >
+      5
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "white",
+          "fontFamily": "Futura",
+          "fontSize": 18,
+        }
+      }
+    >
+      Mon 12:00AM | Jan 1st, 2018
+    </Text>
+    <TouchableHighlight
+      activeOpacity={0.85}
+      onPress={[Function]}
+      underlayColor="transparent"
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        <Icon
+          allowFontScaling={false}
+          color="white"
+          name="chevron-down"
+          size={25}
+        />
+      </Text>
+    </TouchableHighlight>
+  </View>
+  <RenderIf
+    condition={false}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#edf2f7",
+          "flex": 1,
+          "flexDirection": "column",
+          "paddingLeft": 15,
+        }
+      }
+    >
+      <Separator />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "backgroundColor": "#edf2f7",
+            "color": "#032b82",
+            "flex": 1,
+            "fontFamily": "Futura",
+            "fontSize": 13,
+            "fontWeight": "700",
+            "height": 20,
+            "textAlign": "center",
+          }
+        }
+      >
+        SESSION NOTES
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "backgroundColor": "#edf2f7",
+            "color": "#032b82",
+            "flex": 1,
+            "fontFamily": "Futura",
+            "fontSize": 15,
+          }
+        }
+      >
+        mock note
+      </Text>
+    </View>
+  </RenderIf>
+</View>
+`;

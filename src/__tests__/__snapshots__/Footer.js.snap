@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "height": 30,
+      "justifyContent": "space-around",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#032b82",
+        "fontFamily": "futura",
+        "fontSize": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    TOTAL: 65
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#032b82",
+        "fontFamily": "futura",
+        "fontSize": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    YEARLY PACE: 100
+  </Text>
+</View>
+`;

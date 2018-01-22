@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 30,
+    }
+  }
+>
+  <Component
+    animationType="slide"
+    hardwareAccelerated={false}
+    visible={false}
+  >
+    <Editor
+      onCancel={[Function]}
+      sessionToEdit={Object {}}
+      updateSession={[Function]}
+    />
+  </Component>
+  <AddSessionInput
+    addSession={[Function]}
+  />
+  <SessionList
+    deleteSession={[Function]}
+    editSession={[Function]}
+    sessions={Array []}
+  />
+  <Component
+    stats={Object {}}
+  />
+</View>
+`;
+
+exports[`App with mock data 1`] = `
+Object {
+  "sessions": Array [
+    Object {
+      "id": "mockId2",
+      "note": "mock note",
+      "sessionLength": 5,
+      "when": 2018-01-01T08:00:00.000Z,
+    },
+  ],
+  "showEditorModal": false,
+  "stats": Object {
+    "minutesSoFar": "5",
+    "yearlyPace": "86",
+  },
+}
+`;
