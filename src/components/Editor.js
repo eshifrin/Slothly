@@ -149,7 +149,7 @@ export default class Editor extends Component {
 Editor.propTypes = {
   sessionToEdit: PropTypes.shape({
     id: PropTypes.string,
-    sessionLength: PropTypes.string,
+    sessionLength: PropTypes.oneOf(PropTypes.string, PropTypes.number),
     when: PropTypes.instanceOf(Date),
     note: PropTypes.string
   }),

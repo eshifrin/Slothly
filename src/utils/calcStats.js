@@ -1,6 +1,10 @@
 import moment from 'moment';
 // TODO rename to utils
-export const formatDate = (dateObject = new Date(2018, 1, 1)) => {
+
+const yearlyTarget = 1500;
+
+
+export const formatDate = (dateObject = new Date()) => {
   return moment(dateObject).format('ddd h:mmA | MMM Do, YYYY');
 };
 
@@ -21,9 +25,13 @@ export const calcStats = (sessions, endDate = new Date()) => {
 
   const yearlyPace = Math.floor(minutesSoFar * multiplier);
 
+  const shouldHaveReached = yearlyTarget * 1 / multiplier 
+
+
   return {
-    minutesSoFar: minutesSoFar.toLocaleString(),
-    yearlyPace: yearlyPace.toLocaleString()
+    minutesSoFar: parseInt(minutesSoFar, 10),
+    yearlyPace: parseInt(yearlyPace, 10),
+    shouldHaveReached: parseInt(shouldHaveReached, 10)
   };
 };
 

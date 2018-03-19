@@ -1,7 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`AddSessionInput renders 1`] = `
-<View>
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "black",
+      "borderWidth": 1,
+      "flexDirection": "row",
+      "justifyContent": "space-around",
+      "paddingHorizontal": 16,
+    }
+  }
+>
   <TextInput
     allowFontScaling={true}
     keyboardType="number-pad"

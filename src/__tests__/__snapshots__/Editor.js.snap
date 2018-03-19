@@ -160,7 +160,7 @@ exports[`Editor renders 1`] = `
           "testUri": "../../react-native-datepicker/date_icon.png",
         }
       }
-      maxDate="Thu 12:00AM | Feb 1st, 2018"
+      maxDate="Sun 11:16PM | Mar 18th, 2018"
       modalOnResponderTerminationRequest={[Function]}
       mode="datetime"
       onDateChange={[Function]}

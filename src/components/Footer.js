@@ -5,8 +5,11 @@ import { colors } from '../constants';
 export default ({ stats }) => (
   <View style={styles.container}>
     <Text style={styles.text}>{`TOTAL: ${stats.minutesSoFar || '...'}`}</Text>
+    <Text style={styles.text}>{`TARGET: ${stats.shouldHaveReached || '...'}`}</Text>
     <Text style={styles.text}>{`YEARLY PACE: ${stats.yearlyPace ||
       '...'}`}</Text>
+
+
   </View>
 );
 
@@ -18,7 +21,7 @@ const styles = StyleSheet.create({
   },
   text: {
     color: colors.deepBlue,
-    fontSize: 20,
+    fontSize: 15,
     fontFamily: 'futura',
     textAlign: 'center'
   }

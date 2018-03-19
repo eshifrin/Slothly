@@ -46,8 +46,9 @@ Object {
   ],
   "showEditorModal": false,
   "stats": Object {
-    "minutesSoFar": "5",
-    "yearlyPace": "86",
+    "minutesSoFar": 5,
+    "shouldHaveReached": 316,
+    "yearlyPace": 23,
   },
 }
 `;

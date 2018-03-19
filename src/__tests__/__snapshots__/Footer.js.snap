@@ -18,7 +18,7 @@ exports[`Footer renders 1`] = `
       Object {
         "color": "#032b82",
         "fontFamily": "futura",
-        "fontSize": 20,
+        "fontSize": 15,
         "textAlign": "center",
       }
     }
@@ -33,7 +33,22 @@ exports[`Footer renders 1`] = `
       Object {
         "color": "#032b82",
         "fontFamily": "futura",
-        "fontSize": 20,
+        "fontSize": 15,
+        "textAlign": "center",
+      }
+    }
+  >
+    TARGET: ...
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#032b82",
+        "fontFamily": "futura",
+        "fontSize": 15,
         "textAlign": "center",
       }
     }

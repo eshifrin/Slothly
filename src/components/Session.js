@@ -42,7 +42,7 @@ export default class Session extends Component {
 Session.propTypes = {
   item: PropTypes.shape({
     id: PropTypes.string,
-    sessionLength: PropTypes.string,
+    sessionLength: PropTypes.oneOfType(PropTypes.number, PropTypes.string),
     when: PropTypes.instanceOf(Date),
     note: PropTypes.string
   })

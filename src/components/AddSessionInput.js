@@ -8,9 +8,9 @@ export default class AddSessionInput extends Component {
 
   render() {
     return (
-      <View style={styles.header}>
+      <View style={styles.container}>
         <TextInput
-          style={styles.container}
+          style={styles.input}
           keyboardType="number-pad"
           placeholder="HOW MANY MINUTES DIDYA MEDITATE?"
           returnKeyType="done"
